@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="en">
+<head>
+	     <title>Bootstrap Website</title>
+	     <meta charset="utf-8">
+	     <meta name="viewport" content="width=device-width, initial-scale=1">
+	     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>  
+	   <!-- ----Add a standard navigation bar at the top of the page with and make it collapsible on smaller screens--- -->
+
+	    <nav class=" navbar navbar-inverse">
+	    	<div class="container">
+	    		<div class="navbar-header">
+	    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#demo">
+	    				<span class="icon-bar"></span>
+	    				<span class="icon-bar"></span>
+	    				<span class="icon-bar"></span>
+	    				<span class="icon-bar"></span>
+
+	    			</button>
+	    			<a href="#" class="navbar-brand">Me</a>
+	   
+	    		</div>
+	    		<div id="demo" class="collapse navbar-collapse">
+	    		<ul class=" nav navbar-nav">
+	    			<li><a href="#">WHO</a></li>
+	    			<li><a href="#">WHAT</a></li>
+	    			<li><a href="#">WHERE</a></li>
+	    		</ul>
+	    		<ul class=" nav navbar-nav navbar-right">
+	    			<li><a href="#">user <span class="glyphicon glyphicon-user"></span></a></li>
+	    			<li><a href="#">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
+	    		</ul>
+	    	</div>
+	    	</div>
+	    </nav>
+	    <div class="container-fluid bg text-center">
+	    	<!-- ---Add a background class(bg) to the container to add a background color--
+	    	---add a text-center class to center the text inside the container--- -->
+
+	    <h3 class="margin">Who am I?</h3>
+	    <img src="penguins.jpg" alt="Penguins" class="img-circle img-responsive" style="display:inline">
+	   <!--  ---shape the image to a circle with img-circle class--- -->
+	   <!-- ---add the img-responsive class to all images---
+	   ---if you want the image to span the entire width of the screen,when its stack on top of eachother,add width 100% to the image--- -->
+	   <!-- ---add display:inline to the first image to force it to be centered(the img-responsive class add a display:block to the image,which makes it jump to the left of the screen)- -->
+	 <!--   ---am margin class created to add extra space usually after each h3 element and the img element--- -->
+	    <h3>I'm an adventure</h3>
+	</div>
+
+	   <!--  ---Adding more contents and put inside the new container---- -->
+	   <div class="container-fluid bg-1 text-center">
+	   	<h3 class="margin">What Am I?</h3>
+	   	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	   	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	   	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	   	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	   	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	   	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	   <!-- 	-----add a button inside to this container---- -->
+	  <!--  ---then add a search icon to the submit button--- -->
+	   <a href="#" class="btn btn-default btn-lg">Submit <span class=" glyphicon glyphicon-search"></span></a>
+	   </div>
+
+	   <div class="container-fluid bg-2 text-center">
+
+	   	<!-- --modify the third container add a grid, three columns of equal width inside the third container--- -->
+	   	<h3 class="margin">Where to Find Me!</h3>
+	   	<div class="row">
+		  <div class="col-sm-4">
+		   	<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+		   	<img src="colorful.jpg" alt="colorful" class="img-responsive" style="width:440px">
+	   </div>
+
+	   <div class="col-sm-4">
+		   	<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+		   	<img src="blue.jpg" alt="bluepic" class="img-responsive" style="width:400px">
+	   </div>
+
+	   <div class="col-sm-4">
+		   	<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+		   	<img src="autumn.jpg" alt="nature-autumn" class="img-responsive" style="width:380px">
+	   </div>
+	  </div>
+	</div>
+
+	  <!-- ---add a footer and style it----- -->
+	  <footer class="container-fluid text-center bg-3">
+	  	<p>Website Theme Made By
+	  	<a href="#">www.getvimal.com</a>
+        </p>
+	  </footer>
+	   
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
